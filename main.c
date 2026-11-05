@@ -12,39 +12,21 @@ int main(void)
     {
     printf("No");
     }
-    else if ((n>0))
-    {
-      if (n % 3== 0)
-{
-    printf("Up");
-}
-else
-{
-    printf("No");
-}
-
-    }
-    else if ((n>0))
-    {
-      if (n % 5== 0)
-{
-    printf("Go");
-}
-else
-{
-    printf("No");
-}
-    }
-else if ((n>0))
-    {
-      if (n % 7 == 0)
-{
-    printf("!!");
-}
-else
-{
-    printf("No");
-}
-}
+    else if (n % 3 == 0)
+     { 
+        printf("Up");
+     } 
+     else if (n % 5 == 0) 
+     { 
+        printf("Go");
+     } 
+     else if (n % 7 == 0) 
+     { 
+        printf("!!"); 
+    } 
+    else
+     {
+         printf("No"); 
+        }
     return 0;
 }
